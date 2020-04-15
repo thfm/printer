@@ -10,7 +10,6 @@ struct Printer {
 }
 
 impl Printer {
-    // Initialises the printer with an empty queue
     fn new() -> Self {
         Self { queue: Vec::new() }
     }
